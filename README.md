@@ -7,7 +7,7 @@ Application Qt - Gestion des déplacements du robot principal
 
   apt-get install git 
 
-  git clone
+  git clone https://github.com/Clav36/Robotech_Gestion_Deplacements.git
   
   git add .
   
