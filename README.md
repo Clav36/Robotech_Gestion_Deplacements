@@ -1,7 +1,7 @@
 # Robotech_Gestion_Deplacements
 Application Qt - Gestion des déplacements du robot principal
 
-# 1) Utilisation de GitHub
+## 1) Utilisation de GitHub
 
 Installer GitHub:
   apt-get install git 
@@ -9,8 +9,11 @@ Installer GitHub:
   git clone
   
   git add .
+  
   git commit -m "Commentaires"
+  
   git push origin master
+  
   
   
   
