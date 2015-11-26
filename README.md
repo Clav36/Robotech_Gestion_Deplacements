@@ -4,6 +4,7 @@ Application Qt - Gestion des déplacements du robot principal
 ## 1) Utilisation de GitHub
 
 Installer GitHub:
+
   apt-get install git 
 
   git clone
