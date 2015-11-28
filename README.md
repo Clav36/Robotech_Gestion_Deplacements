@@ -9,7 +9,7 @@ Documentation:
 
 <strong>Installer GitHub:</strong>
 
-<center>apt-get install git </center>
+'apt-get install git'
 
 <strong>Lors de la première utilisation, cloné les dossiers grâce à cette ligne de commande: </strong>
 
