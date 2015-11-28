@@ -9,11 +9,11 @@ Documentation:
 
 <strong>Installer GitHub:</strong>
 
-`apt-get install git`
+- `apt-get install git`
 
 <strong>Lors de la première utilisation, cloné les dossiers grâce à cette ligne de commande: </strong>
 
-`git clone https://github.com/Clav36/Robotech_Gestion_Deplacements.git`
+- `git clone https://github.com/Clav36/Robotech_Gestion_Deplacements.git`
   
 <strong>Pour modifier les fichiers sue le serveur utiliser les commandes suivantes:</strong>
 
