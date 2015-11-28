@@ -13,15 +13,15 @@ Documentation:
 
 <strong>Lors de la première utilisation, cloné les dossiers grâce à cette ligne de commande: </strong>
 
-<dd>git clone https://github.com/Clav36/Robotech_Gestion_Deplacements.git
+`git clone https://github.com/Clav36/Robotech_Gestion_Deplacements.git`
   
 <strong>Pour modifier les fichiers sue le serveur utiliser les commandes suivantes:</strong>
 
-<dd>git add .
+`git add <fichier>`
   
-<dd>git commit -m "Commentaires"
+`git commit -m "Commentaires"`
   
-<dd>git push origin master
+`git push origin master`
   
   
   
