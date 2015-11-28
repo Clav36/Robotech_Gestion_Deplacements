@@ -1,9 +1,9 @@
 # Robotech_Gestion_Deplacements
-Application Qt - Gestion des déplacements du robot principal
+> Application Qt - Gestion des déplacements du robot principal
 
-Calendrier: **en cours**
+> Calendrier: **en cours**
 
-Documentation: **en cours**
+> Documentation: **en cours**
 
 ## 1) Utilisation de GitHub
 
@@ -27,7 +27,7 @@ Pour modifier les fichiers sur le serveur utiliser les commandes suivantes:
 
 ### Pour les **classes**: 
 
-Commence par en `C`(Maj) et la première lettre du nom de la classe est aussi en Maj. 
+Commence par un `C`(Maj) et la première lettre du nom de la classe est aussi en Maj. 
 
 Exemple:
 
