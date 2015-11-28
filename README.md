@@ -27,9 +27,9 @@ Pour pouvoir travailler ensemble il nous faut adopter une convention d'écriture
 
 Pour les **classes**:
 
-
-`class CTest {
+<pre><code>code</code></pre>
+class CTest {
 
 /* some code */
 
-}`
+}
