@@ -51,11 +51,11 @@ Exemple:
 
 - Les variables non membres:
   
-`idem que les variables membres mais sans le m_`
+  `idem que les variables membres mais sans le m_`
   
 - Les variables globales:
 
-`idem que les variables membres mais avec g_`
+  `idem que les variables membres mais avec g_`
 
 
   
