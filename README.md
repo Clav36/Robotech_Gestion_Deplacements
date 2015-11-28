@@ -8,7 +8,7 @@ Documentation:
 ## 1) Utilisation de GitHub
 
 <strong>Installer GitHub:</strong>
-<dd>apt-get install git 
+&nbsp;&nbsp;&nbsp;&nbsp;apt-get install git 
 
 <strong>Lors de la première utilisation, cloné les dossiers grâce à cette ligne de commande: </strong>
 
