@@ -7,7 +7,7 @@
 
 ## 1) Utilisation de GitHub
 
-Installer GitHub:
+Installer GitHub (sous Linux):
 
 - `apt-get install git`
 
