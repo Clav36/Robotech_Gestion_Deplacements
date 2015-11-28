@@ -25,11 +25,41 @@ Pour modifier les fichiers sur le serveur utiliser les commandes suivantes:
 
 Pour pouvoir travailler ensemble il nous faut adopter une convention d'écriture:
 
-Pour les **classes**:
+Pour les **classes**: 
 
-<pre><code>code</code></pre>
-class CTest {
+Commence par en `C`(Maj) et la première lettre du nom de la classe est aussi en Maj. 
 
+Exemple:
+
+<pre><code>class CTest {
 /* some code */
+}</code></pre>
 
-}
+
+Pour les **variables**:
+- Les variables membres statiques:
+<pre><code>int m_nNom;
+  char m_cNom;
+  double m_dNom;
+  float m_fNom;
+  QString m_sNom;
+</code></pre>
+
+- Les variables membres dynamiques (pointeurs):
+
+  `<type>* m_pNom;`
+
+- Les variables non membres:
+  
+idem que les variables membres mais sans le `m_`
+  
+- Les variables globales:
+
+idem que les variables membres mais avec `g_`
+
+
+  
+
+
+
+
