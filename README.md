@@ -23,9 +23,9 @@ Pour modifier les fichiers sur le serveur utiliser les commandes suivantes:
   
 ## 2) Convention d'écriture
 
-Pour pouvoir travailler ensemble il nous faut adopter une convention d'écriture:
+> Pour pouvoir travailler ensemble il nous faut adopter une convention d'écriture:
 
-Pour les **classes**: 
+### Pour les **classes**: 
 
 Commence par en `C`(Maj) et la première lettre du nom de la classe est aussi en Maj. 
 
@@ -36,7 +36,7 @@ Exemple:
 }</code></pre>
 
 
-Pour les **variables**:
+### Pour les **variables**:
 - Les variables membres statiques:
 <pre><code>int m_nNom;
   char m_cNom;
@@ -51,11 +51,11 @@ Pour les **variables**:
 
 - Les variables non membres:
   
-idem que les variables membres mais sans le `m_`
+`idem que les variables membres mais sans le m_`
   
 - Les variables globales:
 
-idem que les variables membres mais avec `g_`
+`idem que les variables membres mais avec g_`
 
 
   
