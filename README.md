@@ -17,11 +17,9 @@ Documentation:
   
 <strong>Pour modifier les fichiers sue le serveur utiliser les commandes suivantes:</strong>
 
-`git add <fichier>`
-  
-`git commit -m "Commentaires"`
-  
-`git push origin master`
+- `git add <fichier>`
+- `git commit -m "Commentaires"`
+- `git push origin master`
   
   
   
