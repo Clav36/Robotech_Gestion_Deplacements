@@ -8,17 +8,19 @@ Documentation:
 ## 1) Utilisation de GitHub
 
 <strong>Installer GitHub:</strong>
-  apt-get install git 
+<dd>apt-get install git 
 
 <strong>Lors de la première utilisation, cloné les dossiers grâce à cette ligne de commande: </strong>
-  git clone https://github.com/Clav36/Robotech_Gestion_Deplacements.git
+
+<dd>git clone https://github.com/Clav36/Robotech_Gestion_Deplacements.git
   
 <strong>Pour modifier les fichiers sue le serveur utiliser les commandes suivantes:</strong>
-  git add .
+
+<dd>git add .
   
-  git commit -m "Commentaires"
+<dd>git commit -m "Commentaires"
   
-  git push origin master
+<dd>git push origin master
   
   
   
