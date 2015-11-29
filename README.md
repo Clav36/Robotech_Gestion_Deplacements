@@ -31,9 +31,11 @@ Amélioration du confort utilisateur:
 
 > à compléter
 
-##1.2) L'interface utilisateur
+##1.2) Structure de l'interface
 
 ![alt tag](https://raw.githubusercontent.com/Clav36/Robotech_Gestion_Deplacements/master/pr%C3%A9sentation.png)
+
+##1.3) Structure de la POO
 
 
 
