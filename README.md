@@ -13,7 +13,7 @@
 Les actions que doit gérer l'application sont:
 
 - donner les déplacements [avance, reculer, rotation...] à éffectuer 
-- donner les différents mouvements des bras pour attraper, stoker [cubes, cônes, cylindre, 'coquillages'] et construire les figures demandées.
+- donner les différents mouvements des bras pour attraper, stocker [cubes, cônes, cylindre, 'coquillages'] et construire les figures demandées.
 - donner la liste des capteurs à activer ou à désactiver en foncion de la position du robot
 - pourvoir charger le programme généré sur le robot directement depuis l'application (via Wifi)
 - basculer d'un côté ou de l'autre facilement [vert ou violet]
