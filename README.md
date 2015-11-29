@@ -39,6 +39,46 @@ Amélioration du confort utilisateur:
 
 ![alt tag](https://raw.githubusercontent.com/Clav36/Robotech_Gestion_Deplacements/master/POO.png)
 
+| Classes       | Descriptions   |
+| ------------- | ------------- |
+| **CPoint**    |   |
+| CPRond        |   |
+| CPRect        |   |
+
+| Classes       | Descriptions   |
+| ------------- | ------------- |
+| **CLine**     |   |
+| CLContinue    |   |
+| CLPointillee  |   |
+
+| Classes         | Descriptions   |
+| --------------  | ------------- |
+| **CObjet**      |   |
+| COCube          |   |
+| COCone          |   |
+| COCylindre      |   |
+| COCOCoquillage  |   |
+
+| Classes       | Descriptions   |
+| ------------- | ------------- |
+| **CEtape**    |   |
+| CGroupeEtape  |   |
+
+| Classes       | Descriptions   |
+| ------------- | ------------- |
+| CAction       |   |
+
+| Classes       | Descriptions   |
+| ------------- | ------------- |
+| CRobot        |   |
+
+| Classes       | Descriptions   |
+| ------------- | ------------- |
+| MainFrame     |   |
+
+| Classes       | Descriptions   |
+| ------------- | ------------- |
+| MainFrame     |   |
 #2. Annexes
 ### 2.1) Utilisation de GitHub
 
