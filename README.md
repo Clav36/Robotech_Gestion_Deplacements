@@ -29,6 +29,7 @@ Amélioration du confort utilisateur:
 
 > à compléter
 
+
 #2. Annexes
 ### 2.1) Utilisation de GitHub
 
