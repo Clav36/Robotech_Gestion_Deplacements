@@ -29,6 +29,9 @@ Amélioration du confort utilisateur:
 
 > à compléter
 
+![alt tag](https://github.com/Clav36/Robotech_Gestion_Deplacements/présentation.png)
+
+
 
 #2. Annexes
 ### 2.1) Utilisation de GitHub
