@@ -78,7 +78,9 @@ Amélioration du confort utilisateur:
 
 | Classes       | Descriptions   |
 | ------------- | ------------- |
-| MainFrame     |   |
+| QViewTable    |   |
+
+
 #2. Annexes
 ### 2.1) Utilisation de GitHub
 
