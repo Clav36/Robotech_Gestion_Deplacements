@@ -5,7 +5,9 @@
 
 > Documentation: **en cours**
 
-#1. Cahier des charges
+#1. L'application
+##1.1) Le cahier des charges
+
 > Le but de cette application est de gérer les déplacements du robot principal sur la table de la CdF.
 
 Les actions que doit gérer l'application sont:
@@ -29,7 +31,9 @@ Amélioration du confort utilisateur:
 
 > à compléter
 
-![alt tag](https://github.com/Clav36/Robotech_Gestion_Deplacements/présentation.png)
+##1.2) L'interface utilisateur
+
+![alt tag](https://raw.githubusercontent.com/Clav36/Robotech_Gestion_Deplacements/master/pr%C3%A9sentation.png)
 
 
 
