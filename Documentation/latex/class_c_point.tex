@@ -1,0 +1,145 @@
+\section{C\-Point Class Reference}
+\label{class_c_point}\index{C\-Point@{C\-Point}}
+
+
+Classe de base pour les différents type de points.  
+
+
+
+
+{\ttfamily \#include $<$cpoint.\-h$>$}
+
+Inheritance diagram for C\-Point\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_point}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries C\-Point} (int X, int Y, int Angle\-\_\-init, Q\-Color Color)\label{class_c_point_a8cb3a7054fee9f2b14e5934c5ae925f0}
+
+\item 
+int {\bfseries Get\-X} ()\label{class_c_point_aab5e444ca8b3e6e04abddf95c2eccdc5}
+
+\item 
+int {\bfseries Get\-Y} ()\label{class_c_point_aa4c063d7345446a61299f62a2f0edc51}
+
+\item 
+int {\bfseries Get\-Taille} ()\label{class_c_point_a58bdc2cf27e48c1f5aecd77f0727ba5e}
+
+\item 
+float {\bfseries Get\-Angle} ()\label{class_c_point_a973d12faf8432d9b712022d6d3a70f1c}
+
+\item 
+float {\bfseries Get\-Distance} ()\label{class_c_point_a5e932d56c5675df773fa2bdaac3eaae6}
+
+\item 
+bool {\bfseries Get\-Arriere} ()\label{class_c_point_a9ef10305782aa210d2d2906d69d10582}
+
+\item 
+int {\bfseries Get\-Delai} ()\label{class_c_point_a294cb016dfd6015a9911966cdeb61eef}
+
+\item 
+bool {\bfseries Get\-Servo\-Clap} ()\label{class_c_point_a77a908f05e2fcf3ced2ee246b9443662}
+
+\item 
+bool {\bfseries Get\-Servo\-Pince} ()\label{class_c_point_add4a0192e794997623b26ebc04a1f92a}
+
+\item 
+bool {\bfseries Get\-Capt\-Av} ()\label{class_c_point_a0981a37f9b3945989abe4fdf18ffa5d2}
+
+\item 
+bool {\bfseries Get\-Capt\-Ar} ()\label{class_c_point_aa0fb9e1e43e63c4ed5a4f4e111fe64d4}
+
+\item 
+int {\bfseries Get\-Angle\-Init} ()\label{class_c_point_aa454ce1065ae1fcebc9dad6eb6782811}
+
+\item 
+void {\bfseries Set\-Servo\-Clap} (int X)\label{class_c_point_ac7f0ffa1e3848a3bbda5cddab37e0f8a}
+
+\item 
+void {\bfseries Set\-Servo\-Pince} (bool X)\label{class_c_point_afe65922e719e51b08a91e2b22e668fea}
+
+\item 
+void {\bfseries Set\-Capt\-Av} (bool X)\label{class_c_point_a80ec358b9fc198e273952bcf945a241a}
+
+\item 
+void {\bfseries Set\-Capt\-Ar} (bool X)\label{class_c_point_a6c17d7d007140a80639728af3e97544c}
+
+\item 
+void {\bfseries Set\-Delai} (int time)\label{class_c_point_a238de9eca4a0955e5990a6f8e934918f}
+
+\item 
+void {\bfseries Set\-Angle\-Init} (int Angle)\label{class_c_point_a83b2d6f294cbbdb15f6fb733624ae539}
+
+\item 
+void {\bfseries Set\-Marche\-Arriere} (bool X)\label{class_c_point_a56337ba7727290fbd18cbcc0a3005da4}
+
+\item 
+void {\bfseries Set\-Coord\-Polaire} ({\bf C\-Point} $\ast$Point\-Av)\label{class_c_point_ae7e569157bfb3072136ab9ca7f06f34d}
+
+\item 
+virtual void {\bfseries Set\-Color} (Q\-Color C)=0\label{class_c_point_a6ac3592624147923e9b8975830b6630a}
+
+\item 
+virtual void {\bfseries Deplacement} (int X, int Y)=0\label{class_c_point_a41ae3701584ed0a1b24df5907aff3b1f}
+
+\item 
+virtual Q\-Graphics\-Item $\ast$ {\bfseries Get\-Type} ()=0\label{class_c_point_a77acca79d4f34791acc50e406aece01f}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries n\-X}\label{class_c_point_a56b43dbd9752a0a1a65810068c8e1b0e}
+
+\item 
+int {\bfseries n\-Y}\label{class_c_point_a9f7bb0cf46eb923de44bd076d6cba1dc}
+
+\item 
+float {\bfseries n\-Angle}\label{class_c_point_a2ed3dcfb4866c7310025e484944765f8}
+
+\item 
+int {\bfseries n\-Angle\-\_\-init}\label{class_c_point_a655c23394a707a26e15d39bd549678fc}
+
+\item 
+float {\bfseries n\-Distance}\label{class_c_point_a6297cd2c695cc6e55eff4b7ceab712a5}
+
+\item 
+int {\bfseries n\-Delai}\label{class_c_point_a4a1295bb2bbe0262745b28e804e339e4}
+
+\item 
+int {\bfseries Servo\-Clap}\label{class_c_point_a44375d1e2ba537374196a10d3ac54726}
+
+\item 
+bool {\bfseries Servo\-Pince}\label{class_c_point_ad09477e585b5c703ae78a8415a3875f9}
+
+\item 
+bool {\bfseries Capt\-Av}\label{class_c_point_a2104bc3202c15adc696878a7b730522c}
+
+\item 
+bool {\bfseries Capt\-Ar}\label{class_c_point_ac54cc9ceba8683ef772460af9557e13d}
+
+\item 
+bool {\bfseries b\-M\-Arriere}\label{class_c_point_a77fa347ab5df7055dda85ad160a7bac4}
+
+\item 
+float {\bfseries n\-Taille}\label{class_c_point_a180430062c8c3adbfceffd0e0b82f7b1}
+
+\item 
+Q\-Color $\ast$ {\bfseries p\-Couleur}\label{class_c_point_ab3333381fe54f81ac67257d006b22215}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe de base pour les différents type de points. 
+
+\doxyref{C\-Point}{p.}{class_c_point} est une classe de base dont hérite les classes typées de points (\doxyref{C\-P\-Rect}{p.}{class_c_p_rect}, \doxyref{C\-P\-Rond}{p.}{class_c_p_rond}...) Contient toutes les variables correspondants à une étape. 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Gestion\-\_\-\-Deplacements/cpoint.\-h\item 
+Gestion\-\_\-\-Deplacements/cpoint.\-cpp\end{DoxyCompactItemize}
