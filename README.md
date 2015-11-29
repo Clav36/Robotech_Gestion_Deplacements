@@ -82,15 +82,6 @@ Exemple:
 
   `idem que les variables membres mais avec g_`
 
-### 2.3) Avancement
-
-| Classe        | Développeur     | Avancement | Doc  |
-| :------------ |:---------------:|:----------:| ----:|
-| CPoint        | Martin C.       |       100% |  100%|
-| CPRond        | Martin C.       |       100% |  100%|
-| CLine         | Martin C.       |       100% |  100%|
-| CRobot        | Martin C.       |       100% |  100%|
-| QViewTable    | Martin C.       |       100% |  100%|
 
 
 
