@@ -5,7 +5,32 @@
 
 > Documentation: **en cours**
 
-## 1) Utilisation de GitHub
+#1. Cahier des charges
+> Le but de cette application est de gérer les déplacements du robot principal sur la table de la CdF.
+
+Les actions que doit gérer l'application sont:
+
+- donner les déplacements [avance, reculer, rotation...] à éffectuer 
+- donner les différents mouvements des bras pour attraper, stoker [cubes, cônes, cylindre, 'coquillages'] et construire les figures demandées.
+- donner la liste des capteurs à activer ou à désactiver en foncion de la position du robot
+- pourvoir charger le programme généré sur le robot directement depuis l'application (via Wifi)
+- basculer d'un côté ou de l'autre facilement [vert ou violet]
+- gestion des différentes tables possibles [une solution pour chaque cas]
+- gestion des différents niveau de la table (relatif à l'empilement des objets)
+
+Amélioration du confort utilisateur:
+
+- possibilité de zoomer sur une portion de la table
+- différentes catégories (etapes/groupe d'étapes/actions/groupe d'actions)
+- possibilité d'ajout, suppression, modification de ces catégories
+- gestion des collisions
+- sauvegarde et ouverture de fichier
+
+
+> à compléter
+
+#2. Annexes
+### 2.1) Utilisation de GitHub
 
 Installer GitHub (sous Linux):
 
@@ -21,11 +46,11 @@ Pour modifier les fichiers sur le serveur utiliser les commandes suivantes:
 - `git commit -m "Commentaires"`
 - `git push origin master`
   
-## 2) Convention d'écriture
+### 2.2) Convention d'écriture
 
 > Pour pouvoir travailler ensemble il nous faut adopter une convention d'écriture:
 
-### Pour les **classes**: 
+#### Pour les **classes**: 
 
 Commence par un `C`(Maj) et la première lettre du nom de la classe est aussi en Maj. 
 
@@ -36,7 +61,7 @@ Exemple:
 }</code></pre>
 
 
-### Pour les **variables**:
+#### Pour les **variables**:
 - Les variables membres statiques:
 <pre><code>int m_nNom;
   char m_cNom;
@@ -57,7 +82,7 @@ Exemple:
 
   `idem que les variables membres mais avec g_`
 
-## 3) Avancement
+### 2.3) Avancement
 
 | Classe        | Développeur     | Avancement | Doc  |
 | :------------ |:---------------:|:----------:| ----:|
