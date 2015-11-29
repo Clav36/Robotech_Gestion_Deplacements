@@ -37,7 +37,7 @@ Amélioration du confort utilisateur:
 
 ##1.3) Structure de la POO
 
-
+![alt tag](https://raw.githubusercontent.com/Clav36/Robotech_Gestion_Deplacements/master/POO.png)
 
 #2. Annexes
 ### 2.1) Utilisation de GitHub
