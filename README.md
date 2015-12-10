@@ -31,10 +31,57 @@ Amélioration du confort utilisateur:
 
 > à compléter
 
-##1.2) L'interface utilisateur
+##1.2) Structure de l'interface
 
 ![alt tag](https://raw.githubusercontent.com/Clav36/Robotech_Gestion_Deplacements/master/pr%C3%A9sentation.png)
 
+##1.3) Structure de la POO
+
+![alt tag](https://raw.githubusercontent.com/Clav36/Robotech_Gestion_Deplacements/master/POO.png)
+
+
+> Voici la description succincte de chaque classe. Pour plus d'info aller voir la doc.
+
+| Classes       | Descriptions   |
+| ------------- | ------------- |
+| **CPoint**    | **Classe de base**, gestion de l'affichage de chaque point sur la vue  |
+| CPRond        | Gestion des points ronds |
+| CPRect        | Gestion des points carrés  |
+
+| Classes       | Descriptions   |
+| ------------- | ------------- |
+| **CLine**     | **Classe de base**, gestion de l'affichage de chaque ligne sur la vue |
+| CLContinue    | Gestion des lignes continue  |
+| CLPointillee  | Gestion des lignes en pointillée |
+
+| Classes         | Descriptions   |
+| --------------  | ------------- |
+| **CObjet**      | **Classe de base**, gestion des objets |
+| COCube          | Gestion des cubes - affichages / traitements  |
+| COCone          | Gestion des cônes - affichages / traitements  |
+| COCylindre      | Gestion des cylindres - affichages / traitements  |
+| COCOCoquillage  | Gestion des 'coquillages' - affichages / traitements  |
+
+| Classes       | Descriptions   |
+| ------------- | ------------- |
+| **CEtape**    | **Classe de base**, gestion de chaque etape (distance à parcourir, rotations...) |
+| CGroupeEtape  | Regroupement d'étapes pour une meilleure compréhension de l'affichage  |
+
+| Classes       | Descriptions   |
+| ------------- | ------------- |
+| CAction       |  Gestion des actions des bras |
+
+| Classes       | Descriptions   |
+| ------------- | ------------- |
+| CRobot        | Prise en compte de la dimension du robot (-> détection des collisions)  |
+
+| Classes       | Descriptions   |
+| ------------- | ------------- |
+| MainFrame     | **Classe principale**, gestion de la fenetre  |
+
+| Classes       | Descriptions   |
+| ------------- | ------------- |
+| QViewTable    | Gestion de la vue, hérite de **QGraphicsView**  |
 
 
 #2. Annexes
